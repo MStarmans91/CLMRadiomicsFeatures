@@ -13,14 +13,14 @@ def editconfig(config):
     config['ImageFeatures']['image_type'] = 'CT'
     config['ImageFeatures']['vessel_radius'] = '0'  # tumors can be really small
 
-    config['Labels']['label_names'] = 'BRAF'
+    config['Labels']['label_names'] = 'HGP'
     config['Labels']['modus'] = 'singlelabel'
 
     return config
 
 
 # Inputs
-name = 'WORC_CLM_GP'
+name = 'WORC_CLM_HGP'
 current_path = os.path.dirname(os.path.abspath(__file__))
 label_file = os.path.join(current_path, 'ExampleData', 'pinfo_CLM.txt')
 semantics_file = os.path.join(current_path, 'ExampleData', 'sem_CLM.csv')

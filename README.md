@@ -2,21 +2,21 @@
 Scripts to compute the features and develop the models from the paper "An automatic method
 for distinguishing pure histopathological growth patterns of colorectal
 liver metastases on CT using deep learning and radiomics: a pilot study .",
-M.P.A. Starmans, F. E. Buisman et al. 2020.
+M.P.A. Starmans, F. E. Buisman et al. 2021.
 
 Before trying out the code in this repository, we advice you to get
 familiar with the WORC package through the WORC tutorial:
 https://github.com/MStarmans91/WORCTutorial.
 
 ## Installation
-For the feature extraction, only the PREDICT package, at least version 3.1.5,
+For the feature extraction, only the PREDICT package, at least version 3.1.13,
 and the subsequent dependencies are required, which can be installed through pip:
 
-    pip install "PREDICT>=3.1.5"
+    pip install "PREDICT>=3.1.13"
 
-For the model optimization, additionally WORC, version 3.2.2, is required:
+For the model optimization, additionally WORC, version 3.4.0, is required:
 
-    pip install "WORC==3.2.2"
+    pip install "WORC==3.4.0"
 
 ## Usage: Feature Extraction
 The ExtractFeatures.py script can be used to extract all features. We provided

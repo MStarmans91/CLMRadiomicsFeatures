@@ -1,4 +1,4 @@
-Patient	GP
+Patient	HGP
 CLMRadiomics-001	1
 CLMRadiomics-002	1
 CLMRadiomics-003	1
