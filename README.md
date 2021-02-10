@@ -1,7 +1,7 @@
 # CLMRadiomics
-Scripts to compute the features and develop the models from the paper "An automatic method
-for distinguishing pure histopathological growth patterns of colorectal
-liver metastases on CT using deep learning and radiomics: a pilot study .",
+Scripts to compute the features and develop the models from the paper
+"Distinguishing pure histopathological growth patterns of colorectal
+liver metastases on CT using deep learning and radiomics: a pilot study.",
 M.P.A. Starmans, F. E. Buisman et al. 2021.
 
 Before trying out the code in this repository, we advice you to get
